@@ -9,3 +9,7 @@ def home():
 @app.route("/<post>")
 def post(post):
     return render_template("postbase.html")
+
+if __name__=="__main__":
+    app.debug=True
+    app.run()
