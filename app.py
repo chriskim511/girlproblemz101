@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, session
 import collections
 app=Flask(__name__)
-
+#check
 dict=collections.OrderedDict()
 dict["Introducing Pure"]="Blablabla"
 dict["Everything You Need to Know About Grunt"]="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
